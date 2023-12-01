@@ -1,0 +1,82 @@
+/* Apply some global styling to all elements */
+* {
+  margin: 0%;
+  padding: 0%;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+/* Set the background color and text color for the body */
+body {
+  background: #002339;
+  color: #fff;
+}
+
+/* Style the main container for the webpage */
+.container {
+  margin: 12%;
+  width: 90%;
+  max-width: 700px;
+}
+
+/* Style the display container for the generated password */
+.display {
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  background: #fff;
+  color: #333;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 26px 20px;
+  border-radius: 5px;
+}
+
+/* Style the heading inside the main container */
+.container h1 {
+  font-weight: 500;
+  font-size: 45px;
+}
+
+/* Style the span element inside the heading with a specific color and border */
+.container h1 span {
+  color: #019f55;
+  border-bottom: 4px solid #019f55;
+  padding-bottom: 7px;
+}
+
+/* Style the copy image inside the display container */
+.display img {
+  width: 30px;
+  cursor: pointer;
+}
+
+/* Style the password input field inside the display container */
+.display input {
+  border: 0;
+  outline: 0;
+  font-size: 24px;
+}
+
+/* Style the button inside the main container */
+.container button image {
+  width: 18px;
+  margin-right: 10px;
+}
+
+/* Style the button with specific background, text color, and other properties */
+.container button {
+  border: 0;
+  outline: 0;
+  background: #019f55;
+  color: #fff;
+  font-size: 22px;
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px 26px;
+  border-radius: 5px;
+  cursor: pointer;
+}
